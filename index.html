@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -7,27 +7,18 @@
 </head>
 <body>
 
-<!--<video id="videoElement"></video>-->
-<!--<script>-->
-    <!--if (flvjs.isSupported()) {-->
-        <!--var videoElement = document.getElementById('videoElement');-->
-        <!--var flvPlayer = flvjs.createPlayer({-->
-            <!--type: 'flv',-->
-            <!--url: 'http://flv1948666e.live.126.net/live/368297ea3344453b83cb89a9085297a7.flv?netease=flv1948666e.live.126.net'-->
-        <!--});-->
-        <!--flvPlayer.attachMediaElement(videoElement);-->
-        <!--flvPlayer.load();-->
-        <!--flvPlayer.play();-->
-    <!--}-->
-<!--</script>-->
-
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="500" height="400">
-    <param name="movie" value="./flvplayer.swf" />
-    <param name="quality" value="high" />
-    <param name="allowFullScreen" value="true" />
-    <embed src="./flvplayer.swf" allowfullscreen="true" flashvars="http://dota.nos-eastchina1.126.net/anim_zoom.flv&IsAutoPlay=1" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="960" height="540"></embed>
-</object>
-
+<video id="videoElement"></video>
+<script>
+    if (flvjs.isSupported()) {
+        var videoElement = document.getElementById('videoElement');
+        var flvPlayer = flvjs.createPlayer({
+            type: 'flv',
+            url: 'http://localhost:63342/live_test/source/anim_zoom.flv'
+        });
+        flvPlayer.attachMediaElement(videoElement);
+        flvPlayer.load();
+        flvPlayer.play();
+    }
+</script>
 </body>
 </html>

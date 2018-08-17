@@ -1,0 +1,30 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+        115.236.126.254 test.dmp.netease.com
+        127.0.0.1       qa.igame.163.com qa-away.igame.163.com qa-fun.igame.163.com qa-elf.igame.163.com qa-rgb.igame.163.com qa-bath.igame.163.com qa-get.igame.163.com qa-bias.igame.163.com igame.163.com qa-cage.igame.163.com qa-dfg.igame.163.com
+
+#        106.2.32.14 music.163.com 
+#        106.2.32.14 music.hz.netease.com
+#        106.2.32.14 s1.music.126.net
+#        106.2.32.14 s2.music.126.net
+#        106.2.32.14 s3.music.126.net
+#        106.2.32.14 s4.music.126.net
